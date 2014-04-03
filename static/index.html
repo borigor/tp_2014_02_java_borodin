@@ -1,0 +1,55 @@
+<html xmlns="http://www.w3.org/1999/xhtml" content="text/html;" >
+    <head>
+        <title>auth</title>
+        <style type="text/css">
+            .reg-form{
+                float: left;
+                display: block;
+            }
+
+            .reg-form__field {
+                clear: both;
+                text-align: right;
+                line-height: 25px;
+            }
+
+            label {
+                float: left;
+                padding-right: 10px;
+            }
+
+            .reg-form__button {
+                clear: both;
+                text-align: center;
+                padding-top: 20px;;
+            }
+
+            img {
+                float: right;
+            }
+        </style>
+    </head>
+
+    <body>
+
+    <div class="reg-form">
+        <form action = "/userID" method = "POST">
+            <div class="reg-form__field">
+                <label for="login">Login</label>
+                <input type="text" name="login" id="login" />
+            </div>
+
+            <div class="reg-form__field">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" />
+            </div>
+
+            <div class="reg-form__button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <img src="jetty-logo-80x22.png"/>
+
+    </body>
