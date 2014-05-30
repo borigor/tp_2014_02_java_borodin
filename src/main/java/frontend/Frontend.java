@@ -64,6 +64,7 @@ public class Frontend extends HttpServlet {
         Long userId = (Long) session.getAttribute("userId");
         if (userId == null) {
             response.sendRedirect("/");
+            return;
         }
         pageVariables.put("refreshPeriod", "1000");
         pageVariables.put("serverTime", getTime());
@@ -148,3 +149,4 @@ public class Frontend extends HttpServlet {
     }
 
 }
+

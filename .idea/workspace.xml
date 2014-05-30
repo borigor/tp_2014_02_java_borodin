@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa6010d-cf6c-4ea6-a5e5-a2510a309cc0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/db/DataBaseTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/templater/PageGeneratorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/frontend/RoutingTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/AccountService.java" afterPath="$PROJECT_DIR$/src/main/java/db/AccountService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/AccountServiceInterface.java" afterPath="$PROJECT_DIR$/src/main/java/db/AccountServiceInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/Connector.java" afterPath="$PROJECT_DIR$/src/main/java/db/Connector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/DBStatus.java" afterPath="$PROJECT_DIR$/src/main/java/db/DBStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/Executor.java" afterPath="$PROJECT_DIR$/src/main/java/db/Executor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/frontend/Frontend.java" afterPath="$PROJECT_DIR$/src/main/java/frontend/Frontend.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/stat/Main.java" afterPath="$PROJECT_DIR$/src/main/java/stat/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/ResultHandler.java" afterPath="$PROJECT_DIR$/src/main/java/db/ResultHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/ResultHandlerInterface.java" afterPath="$PROJECT_DIR$/src/main/java/db/ResultHandlerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/SqlQueryConstructor.java" afterPath="$PROJECT_DIR$/src/main/java/db/SqlQueryConstructor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/db/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/db/UserDataSet.java" afterPath="$PROJECT_DIR$/src/main/java/db/UserDataSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tml/registration.tml" afterPath="$PROJECT_DIR$/tml/registration.tml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tp_2014_02_java_borodin.iml" afterPath="$PROJECT_DIR$/tp_2014_02_java_borodin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tml/userID.tml" afterPath="$PROJECT_DIR$/tml/userID.tml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tp_2014_02_java_borodin.iws" />
@@ -85,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stat/Main.java">
+      <file leaf-file-name="PageGeneratorTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/templater/PageGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="51" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="630">
+            <state line="29" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="1.1662198" vertical-offset="0" max-vertical-offset="525">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +88,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Frontend.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/frontend/Frontend.java">
+      <file leaf-file-name="RoutingTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/frontend/RoutingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="1" selection-start="5180" selection-end="5180" vertical-scroll-proportion="3.817073" vertical-offset="400" max-vertical-offset="2070">
-              <folding />
+            <state line="70" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="1215">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="495">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/templater/PageGenerator.java" />
         <option value="$PROJECT_DIR$/tml/timer.tml" />
         <option value="$PROJECT_DIR$/src/main/java/db/Connector.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/ResultHandlerInterface.java" />
@@ -135,8 +139,15 @@
         <option value="$PROJECT_DIR$/src/main/java/db/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/AccountServiceInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/Executor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/stat/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/db/DataBaseTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/templater/testPageGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/frontend/PageGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/templater/PageGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/templater/PageGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/frontend/RoutingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/frontend/Frontend.java" />
       </list>
     </option>
@@ -241,6 +252,92 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_borodin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_borodin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_borodin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_borodin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_borodin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp_2014_02_java_borodin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -307,10 +404,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -335,32 +428,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp_2014_02_java_borodin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp_2014_02_java_borodin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,8 +463,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="templater" />
+      <recent name="frontend" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestRunner">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -423,6 +494,23 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tp_2014_02_java_borodin" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -643,12 +731,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestRunner" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -702,16 +792,16 @@
       <workItem from="1401133364962" duration="41000" />
       <workItem from="1401280836317" duration="2214000" />
       <workItem from="1401438465277" duration="1361000" />
-      <workItem from="1401439855769" duration="5792000" />
+      <workItem from="1401439855769" duration="16947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56995000" />
+    <option name="totallyTimeSpent" value="68150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -733,7 +823,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26449564" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3030303" sideWeight="0.49960285" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36204147" sideWeight="0.49960285" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -790,30 +880,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tml/userID.tml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stat/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="71" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
@@ -1029,16 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tml/userID.tml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="7" selection-start="875" selection-end="875" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="465" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tml/registration.tml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="55" selection-start="983" selection-end="983" vertical-scroll-proportion="0.5833333" vertical-offset="354" max-vertical-offset="930" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="59" selection-start="1130" selection-end="1130" vertical-scroll-proportion="-9.625" vertical-offset="414" max-vertical-offset="990" />
@@ -1047,13 +1103,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/db/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="53" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
@@ -1079,13 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.5768025" vertical-offset="401" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/db/AccountServiceInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="12" selection-start="213" selection-end="213" vertical-scroll-proportion="0.42319748" vertical-offset="0" max-vertical-offset="319">
@@ -1102,24 +1144,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="49" selection-start="936" selection-end="936" vertical-scroll-proportion="0.12195122" vertical-offset="325" max-vertical-offset="735">
+        <state line="51" column="23" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.9268293" vertical-offset="385" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stat/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="51" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="630">
+        <state line="38" column="25" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/db/DataBaseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="26" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2670">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tml/userID.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="7" selection-start="875" selection-end="875" vertical-scroll-proportion="0.84841627" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tml/registration.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="55" selection-start="983" selection-end="983" vertical-scroll-proportion="2.1100917" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="495">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/frontend/RoutingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1215">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templater/PageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="9" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/frontend/Frontend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="1" selection-start="5180" selection-end="5180" vertical-scroll-proportion="3.817073" vertical-offset="400" max-vertical-offset="2070">
+        <state line="107" column="44" selection-start="3533" selection-end="3533" vertical-scroll-proportion="-0.12820514" vertical-offset="1380" max-vertical-offset="2100">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stat/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="51" selection-start="854" selection-end="854" vertical-scroll-proportion="0.5978552" vertical-offset="137" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/templater/PageGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="1.1662198" vertical-offset="0" max-vertical-offset="525">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
