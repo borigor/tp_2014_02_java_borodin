@@ -22,7 +22,7 @@ public class Main {
         context.addServlet(new ServletHolder(frontend), "/*");
 
         ResourceHandler resource_handler = new ResourceHandler();
-        resource_handler.setDirectoriesListed(true);
+        resource_handler.setDirectoriesListed(false);
         resource_handler.setResourceBase("static");
 
         HandlerList handlers = new HandlerList();
@@ -31,5 +31,6 @@ public class Main {
 
         server.start();
         server.join();
+
     }
 }
