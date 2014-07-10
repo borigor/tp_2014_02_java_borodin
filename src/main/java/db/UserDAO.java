@@ -23,6 +23,4 @@ public class UserDAO {
     UserDataSet findUser(String login) throws SQLException {
         return Executor.execQuery(connection, SqlQueryConstructor.constructSelect(login), handler);
     }
-
-
 }

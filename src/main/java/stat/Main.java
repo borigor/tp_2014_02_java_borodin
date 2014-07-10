@@ -1,6 +1,8 @@
 package stat;
 
+import db.AccountService;
 import frontend.Frontend;
+import messageSystem.MessageSystem;
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.HandlerList;
@@ -15,7 +17,15 @@ import javax.servlet.Servlet;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        Servlet frontend = new Frontend();
+
+        MessageSystem messageSystem = new MessageSystem();
+        Frontend frontend = new Frontend(messageSystem);
+        AccountService accountService1 = new AccountService(messageSystem);
+        AccountService accountService2 = new AccountService(messageSystem);
+
+        (new Thread(frontend)).start();
+        (new Thread(accountService1)).start();
+        (new Thread(accountService2)).start();
 
         Server server = new Server(8080);
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
@@ -31,6 +41,5 @@ public class Main {
 
         server.start();
         server.join();
-
     }
 }

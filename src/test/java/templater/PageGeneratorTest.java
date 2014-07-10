@@ -17,13 +17,12 @@ public class PageGeneratorTest {
 
         pageVariables.put("refreshPeriod", "1000");
         pageVariables.put("serverTime", "12.12.12");
-        pageVariables.put("userId", "1234");
+        pageVariables.put("User", "1234");
         Assert.assertTrue(PageGenerator.getPage("userID.tml", pageVariables).contains("Timer"));
     }
 
     @Test
     public void testRegistrationPage() {
-        Map<String, Object> pageVariables = null;
-        Assert.assertTrue(PageGenerator.getPage("registration.tml", pageVariables).contains("registration"));
+        Assert.assertTrue(PageGenerator.getPage("registration.tml", null).contains("registration"));
     }
 }

@@ -1,5 +1,6 @@
 package frontend;
 
+import messageSystem.MessageSystem;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -33,7 +34,7 @@ public class RoutingTest {
 
     @Before
     public void setUp() throws IOException {
-        frontend = new Frontend();
+        frontend = new Frontend(new MessageSystem());
         stringWriter = new StringWriter();
         printWriter = new PrintWriter(stringWriter);
     }
@@ -59,17 +60,4 @@ public class RoutingTest {
         frontend.doGet(request, response);
         Assert.assertTrue(stringWriter.toString().contains("Timer"));
     }
-
-    @Test
-    public void testIndexRoute() throws IOException, ServletException {
-        url = "/userID";
-        when(request.getPathInfo()).thenReturn(url);
-        when(request.getSession()).thenReturn(session);
-        when(response.getWriter()).thenReturn(printWriter);
-        when(session.getAttribute(anyString())).thenReturn(null);
-
-        frontend.doGet(request, response);
-        verify(response, atLeastOnce()).sendRedirect("/");
-    }
-
 }

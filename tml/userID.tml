@@ -21,6 +21,12 @@
 <body onload='setInterval(function(){refresh()}, ${refreshPeriod} ); setClientTime();'>
 <p>Client time: <span id='ClientTime'></span></p>
 <p>Server time: ${serverTime}</p>
-<p>UserId: ${userId}</p>
+<p>${User}</p>
+
+<form action="/" method="get">
+    <div class="reg-form__button">
+        <input type="submit" value="Main"></input>
+    </div>
+</form>
 </body>
 </html>

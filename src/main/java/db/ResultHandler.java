@@ -14,7 +14,8 @@ public class ResultHandler implements ResultHandlerInterface {
     public UserDataSet handle(ResultSet result) throws SQLException {
 
         if (result.next()) {
-            UserDataSet user = new UserDataSet(result.getString("login"), result.getString("passd"));
+            Long id = result.getLong("id");
+            UserDataSet user = new UserDataSet(id, result.getString("login"), result.getString("passd"));
             return user;
         }
         else {

@@ -1,5 +1,6 @@
 package db;
 
+import messageSystem.MessageSystem;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,14 +9,14 @@ import java.sql.SQLException;
 import java.util.Random;
 
 /**
- * Created by igor on 5/30/14.
+ * Created by igor on 5/31/14.
  */
-public class DataBaseTests {
+public class DataBaseTest {
 
     private String login;
     private String pass;
     private AccountService acService;
-
+    private MessageSystem messageSystem;
 
     public static String generateRandomString(int lenght) {
 
@@ -27,13 +28,13 @@ public class DataBaseTests {
         for (int i = 0; i < lenght; i++) {
             randomString[i] = characters[random.nextInt(characters.length)];
         }
-
         return new String(randomString);
     }
 
     @Before
     public void setUp() {
-        acService = new AccountService();
+        messageSystem = new MessageSystem();
+        acService = new AccountService(messageSystem);
         login = generateRandomString(10);
         pass = generateRandomString(15);
     }
@@ -44,10 +45,7 @@ public class DataBaseTests {
         DBStatus resultDB;
 
         resultDB = acService.registration(login, pass);
-        if (resultDB == DBStatus.Ok)
-            result = true;
-        else
-            result = false;
+        result = resultDB == DBStatus.Ok;
 
         Assert.assertTrue(result);
     }
@@ -58,10 +56,7 @@ public class DataBaseTests {
         DBStatus resultDB;
 
         resultDB = acService.registration("", pass);
-        if (resultDB == DBStatus.Ok)
-            result = false;
-        else
-            result = true;
+        result = resultDB != DBStatus.Ok;
 
         Assert.assertTrue(result);
     }
@@ -72,10 +67,7 @@ public class DataBaseTests {
         DBStatus resultDB;
 
         resultDB = acService.registration(login, "");
-        if (resultDB == DBStatus.Ok)
-            result = false;
-        else
-            result = true;
+        result = resultDB != DBStatus.Ok;
 
         Assert.assertTrue(result);
     }
@@ -87,10 +79,7 @@ public class DataBaseTests {
 
         acService.registration(login, pass);
         resultDB = acService.registration(login, pass);
-        if (resultDB == DBStatus.Ok)
-            result = false;
-        else
-            result = true;
+        result = resultDB != DBStatus.Ok;
 
         Assert.assertTrue(result);
     }
@@ -167,6 +156,4 @@ public class DataBaseTests {
 
         Assert.assertTrue(result);
     }
-
-
 }
